@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Catamaran&display=swap');
+
+h1, h2, h3, h4, h5 {
+    font-family: Catamaran, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+h1 {
+    @include heading_one();
+}
+
+h2 {
+    @include heading_two();
+}
+
+h3 {
+    @include heading_three();
+}
+
+h4 {
+    @include heading_four();
+}
+
+p {
+    @include paragraph();
+}
+
+a {
+    @include paragraph();
+    font-weight: bold;
+
+    background: $gradient1;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,29 @@
+@import "_variables";
+@import "_mixins";
+@import "_typography";
+@import "_forms";
+@import "_buttons";
+@import "_modal";
+@import "_card";
+
+html {
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+
+    // Lol can't be bothered to find the cause:
+    overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
